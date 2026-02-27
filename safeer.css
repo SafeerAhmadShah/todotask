@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  rgb(142, 84, 14);
+    text-align: center;
+}
+.container{
+    height: 70vh;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+
+}
+.box{
+    height: 19vmin;
+    width: 19vmin;
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+
+}
